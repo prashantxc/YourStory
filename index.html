@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+
+		<meta name="theme-color" content="#3C3C3C" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+
+		<title>YourStory</title>
+
+		<style type="text/css">
+			body {
+				font-family: 'Open Sans', sans-serif;
+			}
+
+			.story {
+				padding: 10px;
+			}
+
+			.submit {
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body class="body">
+
+		<section class="hero is-primary is-dark">
+		  <div class="hero-body">
+		    <div class="container">
+		      <h1 class="title">
+		        YourStory
+		      </h1>
+		      <h2 class="subtitle">
+		        Anonymously
+		      </h2>
+		    </div>
+		  </div>
+		</section>
+
+		<section class="container">
+			<div class="story columns">
+			  <div class="column">
+			    <form action="https://formspree.io/prashantsngh945@gmail.com" method="POST">
+					<div class="control">
+						<textarea class="textarea is-focused" name="Story" placeholder="Tell me YourStory here..." rows="20"></textarea>
+					</div>
+					<input class="submit button is-primary is-fullwidth" type="submit" value="Submit Anonymously" />
+				</form>
+			  </div>
+			</div>
+		</section>
+
+	</body>
+</html>
